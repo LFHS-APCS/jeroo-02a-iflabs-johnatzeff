@@ -10,11 +10,11 @@ public class Jeroo extends JerooBase {
      */
     public void faceEast()
     {
-if(isFacing(WEST)){
+if (isFacing(WEST)){
   turn(LEFT);
   turn(LEFT);
 }
-else if (isFacing(SOUTH))
+ else if (isFacing(SOUTH))
 {
   turn(LEFT);
 }
