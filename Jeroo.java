@@ -10,19 +10,23 @@ public class Jeroo extends JerooBase {
      */
     public void faceEast()
     {
-if (isFacing(WEST)){
-  turn(LEFT);
-  turn(LEFT);
-}
- else if (isFacing(SOUTH))
-{
-  turn(LEFT);
-}
-else if (isFacing(NORTH))
-{
-  turn(RIGHT);
-}
+      if (isFacing(WEST)){
+        turn(LEFT);
+        turn(LEFT);
+      }
+      else (isFacing(SOUTH))
+      {
+        turn(LEFT);
+      }
+      else (isFacing(NORTH))
+      {
+        turn(RIGHT);
+      }
     }
+    
+
+      
+
 
     /**
      * return true if there is water to the left or one space away on the left
